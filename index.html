@@ -1,37 +1,112 @@
 <DOCTYPE html>
 <html>
- <head>
-    <title> Mis Creaciones</title>
-    <link rel="stylesheet" href="style.css">
- </head>
- <body>
-  <section id="App">
-    <h1>Aplicaciones</h1>
-    <br>
-    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/EUzSa_pyGIAQfTjoMa0tzzdCYCynMO-SaZa3LjEFUOs/embed"></iframe>
-    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/EUzSa_pyGIAQfTjoMa0tz7BUDHezOoeURYNw6rANZtQ/embed"></iframe>
-  </section>
-<br>
-  <section id="Juegos">
-    <h1>Juegos</h1>
-    <br>
-    <a href="https://studio.code.org/projects/applab/EUzSa_pyGIAQfTjoMa0tz7aaZ1eDuhqmaVDQSYkDNnE"><img src="juego.png"></a>
-    <a href="https://studio.code.org/projects/applab/Q-gk-a9hy_oo7HVy-49YroFGF60OBlzLqmtSJok5bGo"><img src="juego2.png"></a>
-  </section>
-  <section id="chatbot">
-    <h1>ChatBot</h1>
-    <br>
-    <iframe
-    allow="microphone;" width="350"height="430"src="https://console.dialogflow.com/api-client/demo/embedded/2fa2f66c-17f4-4201-a2f3-e0edc7a1d4e0">
-    </iframe>
-    <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/37633e30-925e-47d1-9f78-95ca6379205a">
-    </iframe>
-  </section>
-   
+    <head>
+        <title>Mis saga favorita</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100&family=Lobster&family=Pacifico&family=Yantramanav:wght@100&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Jost:wght@100&family=Lobster&family=Pacifico&family=Patrick+Hand&family=Yantramanav:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <center>
+        <ul id="menu">
+            <li class="menu"><a href="#bienvenida">Inicio</a></li>
+            <li class="menu"><a href="#sobremi">Sobre Mi</a></li>
+            <li class="menu"><a href="#Reseña">Mi Videojuego Fav</a></li>
+            <li class="menu"><a href="#Idolos">Idolos</a></li>
+            <li class="menu"><a href="#contacto">Contactos</a></li>
+        </ul>
+    </center>
+        <section id="bienvenida">
+            <div>
+                <img class="img" width="700" src="data:image/jpeg;base64,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">
+                <br>
+                <br>
+                <p>Mi pasatiempo favorito es</p>
+                <p class="p">Jugar Videojuegos</p>
+            </div>
+        </section>
+        <section id="sobremi">
+            <h1>Sobre Mi</h1>
+            <div class="estilo"></div>
+            <p>Hola me llamos Rodrigo y me gusta jugar videojuegos y programar, todos los dias hago un poco de los dos y me gusta hacerlo cada vez que puedo</p>
+        </section>
+        <section id="Reseña">
+            <h1>Esta es un resumen de mi saga de juegos favoritos</h1>
+            <div class="estilo"></div>
+            <br>
+            <div id="myCarousel" class="carousel slide">
+                <center>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <iframe width="885" height="498" src="https://www.youtube.com/embed/XvBtgMU9np4" title="HALO, resumen de la historia de TODA LA SAGA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <p>Historia Completa</p>
+                        </div>
 
-
-
- </body>
+                        <div class="item">
+                            <iframe width="885" height="498" src="https://www.youtube.com/embed/xViNwdpoORA?list=PLCb14gSqD5YIb7Y5tIYQ7Ss1qaT75oYgk" title="Halo Reach (Con Halo Wars) : La Historia en 1 Video I #CaminoaInfinite" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <p>Halo Reach y Halo wars</p>
+                         </div>
+                         <div class="item">
+                            <iframe width="885" height="498" src="https://www.youtube.com/embed/yBmg1RBnH1M?list=PLCb14gSqD5YIb7Y5tIYQ7Ss1qaT75oYgk" title="HALO Combat Evolved : La Historia en 1 Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Halo 1</p>
+                         </div>
+                         <div class="item">
+                            <iframe width="885" height="498" src="https://www.youtube.com/embed/uMU0ouR6NFw?list=PLCb14gSqD5YIb7Y5tIYQ7Ss1qaT75oYgk" title="Halo 2 : La Historia en 1 Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Halo 2</p>
+                         </div>
+                         <div class="item">
+                            <iframe width="885" height="498" src="https://www.youtube.com/embed/155EC_WG9Vk?list=PLCb14gSqD5YIb7Y5tIYQ7Ss1qaT75oYgk" title="HALO 3 : La Historia en 1 Video (Incluye Halo 3 ODST)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Halo 3 y Halo 3 ODST</p>
+                         </div>
+                         <div class="item">
+                            <iframe width="885" height="498" src="https://www.youtube.com/embed/SeOOwKr_6eI?list=PLCb14gSqD5YIb7Y5tIYQ7Ss1qaT75oYgk" title="Halo 4 : La Historia en 1 Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Halo 4</p>
+                         </div>
+                         <div class="item">
+                            <iframe width="885" height="498" src="https://www.youtube.com/embed/crT8ITB44_U?list=PLCb14gSqD5YIb7Y5tIYQ7Ss1qaT75oYgk" title="Halo 5 : La Historia en 1 Video (Incluye Halo Wars 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Halo 5 y Halo Wars 2</p>
+                         </div>
+                         <div class="item">
+                            <iframe width="885" height="498" src="https://www.youtube.com/embed/pCpIIwB5fCk" title="Halo Infinite HISTORIA en 1 Vídeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Halo Infinite</p>
+                         </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                </center>
+            </div>
+        </section>
+        <section id="Idolos">
+            <h1>Mis Idolos</h1>
+            <div class="estilo"></div>
+            <br>
+            <a href="https://youtube.fandom.com/es/wiki/El_Mariana" target="_blank"><img width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYsu-C_4VsfA90B67T-uH-npRWokWf6HOLnA&usqp=CAU"></a>
+             <p>El Mariana</p>
+                        
+             <a href="https://es.wikipedia.org/wiki/Ibai_Llanos" target="_blank"><img width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONREYo95geFQ-_JLKunQo0BEgiwimdezAbg&usqp=CAU"></a>
+              <p>Ibai Llanos</p>
+        </section>
+        <section id="contacto">
+            <h1>Contactos</h1>
+            <div class="estilo"></div>
+            <div>
+             <a href="https://www.instagram.com/elmarianaa/?hl=es" target="_blank" > <i class="fa fa-instagram"> </i> El Mariana</a>
+            <a href="https://www.instagram.com/ibaillanos/?hl=es" target="_blank"><i class="fa fa-instagram"></i>Ibai Llanos</a>
+            </div>
+        </section>
+    </body>
+</html>
