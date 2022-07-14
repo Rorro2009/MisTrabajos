@@ -1,69 +1,42 @@
+.estilo2
+{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+   height: 6px;
+   width: 100%;
+   margin: 8px auto;
+
+}
+.estilo
+{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+   height: 6px;
+   width: 70px;
+   margin: 8px auto;
+
+}
 body
 {
     text-align: center;
-    background-color: rgb(234, 190, 63);
-}
-.img
-{
-    width: 400px;
-    height:250px;
-}
-#menu
-{
-    position: fixed;
-    list-style: none;
-    top: 0px;
-    margin-top: 0px;
-    width: 100%;
-    background: rgb(0, 0, 0);
-    cursor: pointer;
-}
-.menu
-{
-    float: right;
-    padding-left: 25px;
-    font-size: 20px;
-    padding-right: 25px;
-    display:inline;
-    font-size: 20px;
-}
-.menu :hover
-{
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-}
-
-#principal
-{
-    margin-top: 35px;
-}
-a
-{
-    color: white;
-    text-decoration: none;
+    background-color: rgb(232, 228, 20);
 }
 h1
 {
-    color: rgb(0, 0, 0);
-    font-family: 'Concert One', cursive;
-font-family: 'Fredoka', sans-serif;
-font-family: 'Jost', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Pacifico', cursive;
-font-family: 'Patrick Hand', cursive;
-font-family: 'Yantramanav', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#origamis
+{
+    background-color: black;
+    
 }
 p
 {
+    font-size: 25px;
     color: white;
-    font-family: 'Concert One', cursive;
-font-family: 'Fredoka', sans-serif;
-font-family: 'Jost', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Pacifico', cursive;
-font-family: 'Patrick Hand', cursive;
-font-family: 'Titan One', cursive;
-font-family: 'Yantramanav', sans-serif;
-font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
